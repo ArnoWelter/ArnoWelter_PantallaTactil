@@ -9,19 +9,20 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="pantallatactil.arnowelter.com.pantallatactil.PantallaTactilActivity"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Pulsa aquí"
-        android:layout_weight="4"
+        android:layout_weight="1"
         android:gravity="center_vertical|center_horizontal"
         android:background="@color/azul"
         android:textColor="@android:color/background_light"
         android:textStyle="normal|bold"
         android:textSize="18sp"
-        android:id="@+id/TextViewEntrada" />
+        android:id="@+id/TextViewEntrada"
+        android:layout_margin="5dp" />
 
     <ScrollView
         android:layout_width="match_parent"
